@@ -1,0 +1,92 @@
+*{text-align: center;
+    ;
+    color: rgb(0, 0, 0);
+border : 1px solid rgb(13, 213, 240);
+margin: 1px;
+padding: 1px;
+background-color: rgb(13, 213, 240)}
+
+body  {
+    color: rgb(22, 21, 21);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 11px;
+    text-align: center;}
+
+img {
+    padding: 0px;
+    margin: 0 auto;
+    border-radius: 13px;}  
+
+video  {
+    padding: 0px;
+    margin: 0 auto;}
+
+h1, h2 { text-align: center;
+        font-size: 5em}    
+
+Div{ min-height: 100 vh;
+    width: 100vw; } 
+
+table {text-align :"center"
+    border : 1px solid red
+    
+    style="margin: auto"}
+
+td, th {
+
+    text-align: center;}
+
+
+ul {list-style: square}
+
+    @import "compass/css3";
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flow-from: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;}
+  {}
+#mujSeznam{
+    list-style: square;
+    padding: 0;
+    font-size: 3em;}
+
+li.item {
+    padding: 2em;}
+
+.kocka, .pes {
+    color: red;}
+
+.kralik {
+    color: green;}
+
+li {
+    margin: 0 20px;
+    transition: 0.6s ease;}
+
+li:hover {
+    font-size: 1.2em;
+    transition: 0.6s ease;}
