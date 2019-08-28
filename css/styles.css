@@ -28,7 +28,7 @@ Div{ min-height: 100 vh;
     width: 100vw; } 
 
 table {text-align :"center"
-    border : 1px solid red
+    border = 1px solid red
     
     style="margin: auto"}
 
